@@ -32,11 +32,11 @@ class Book
   end
   
   def page_turn= (turn)
-    @page_count = num
+    @page_turn = turn
   end
   
-  def page_count
-    @page_count
+  def page_turn
+    @page_turn
   end
 end
 
