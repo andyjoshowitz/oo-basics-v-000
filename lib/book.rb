@@ -31,7 +31,7 @@ class Book
     @genre
   end
   
-  def page_turn= (num)
+  def page_turn= (turn)
     @page_count = num
   end
   
