@@ -31,12 +31,12 @@ class Book
     @genre
   end
   
-  def page_turn= (turn)
-    @page_turn = turn
+  def turn_page= (turn)
+    @turn_page = turn
   end
   
-  def page_turn
-    @page_turn
+  def turn_page
+    @turn_page
   end
 end
 
